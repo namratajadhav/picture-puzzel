@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PICTURE PUZZLE GAME</title>
+    </head>
+    <body>
+        <div id="container">
+            <a href="#" class="button start">Start</a>
+            <div class="box">
+                <div class="me full"></div>
+            </div>
+            <div class="pre_img">
+                <li data-bid="0">
+                    <img src="img.jpeg">
+                </li>
+                <li data-bid="1">
+                    <img src="img1.jpeg">
+                </li>
+                <li data-bid="2">
+                    <img src="img2.jpeg">
+                </li>
+                <input type="file" name="image" id="file1" style="display: none">
+            </div>
+            <div align="center">
+                <a href="#" class="button reset" align="center">Reset</a>
+            </div>
+        </div>
+        <div class="cover">
+            <div class="score">
+                <p id="src_head">&#9875 Puzzel Solved &#9875</p>
+                <p id="src_time">Time: <span id="min">00</span>Min
+                    <span id="sec">00</span></p>
+                    <p id="src_moves">Moves : <span id="moves"></span></p>
+                    <p class="i">Developed By Namrata Jadhav</p>
+                    <div class="button OK">OK</div>
+            </div>
+        </div>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="script.js"></script>
+    </body>
+</html>
